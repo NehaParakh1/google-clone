@@ -1,0 +1,129 @@
+*{
+    margin:0;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+padding: 20px 30px;
+align-items: center;
+}
+
+.header a{
+    margin-right: 20px;
+    color: rgba(42, 39, 39, 0.87);
+    font-size: 15px;
+    text-decoration:none;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.rightheader{
+    display:flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.rightheader .headerapps{
+    margin-right: 15px ;
+}
+
+.main{
+    display:flex;
+    margin-top:5%;
+    flex-direction: column;
+}
+
+.main img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.search_input{
+    flex:1;
+    display:flex;
+    align-items: center;
+    border:1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 65vw;
+    margin: 0 auto;
+    margin-top:8px;
+    max-width:560px;
+}
+
+.search_input input{
+    flex:1;
+    padding:10px 15px;
+    border:none;
+    outline:none;
+}
+
+.search_input .material-icons{
+    color: gray;
+}
+
+.search_input img{
+    height:40px;
+    width:30px;
+}
+.search_buttons{
+    margin: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.search_buttons button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
+
+.search_buttons button:hover{
+    border: 1px solid gainsboro;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  
+  .footer-left a,
+  .footer-right a {
+    margin-right: 10px;
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .footer-left a:last-child,
+  .footer-right a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-left a:hover,
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
