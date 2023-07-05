@@ -1,5 +1,14 @@
-Google-Clone
+# Google Homepage Clone with Search Feature
 
-HTML CSS JS
+A Google homepage clone with a search feature enabled, built using HTML, CSS, and JavaScript.
 
-A simple google homepage with search feature.
+# Demo
+
+https://google-clone-one-blue.vercel.app/
+
+# Features
+
+The main features of my Google homepage clone are:
+
+-Search bar to input search queries
+-"Google Search" and "I'm Feeling Lucky" buttons
